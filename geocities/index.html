@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>  
+    <meta charset="UTF-8">
+    <meta name="theme-color" content="#98191B">
+    <!--favicons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=WGaxpWrbzG">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=WGaxpWrbzG">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=WGaxpWrbzG">
+    <link rel="manifest" href="/manifest.json?v=WGaxpWrbzG">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg?v=WGaxpWrbzG" color="#98191b">
+    <link rel="shortcut icon" href="/favicon.ico?v=WGaxpWrbzG">
+    <meta name="apple-mobile-web-app-title" content="SHEBAR.NYC">
+    <meta name="application-name" content="SHEBAR.NYC">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Miles Shebar's personal portfolio website." />
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono:700" rel="stylesheet">
+    <script src="http://use.edgefonts.net/inconsolata:n5:default;montserrat:n4:default.js" type="text/javascript"></script>
+    <title>SHEBAR.NYC</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="main.css" rel="stylesheet" type="text/css">
+    <!-- JQuery -->
+    <script src="../js/jquery-1.11.3.min.js"></script>
+    <script>
+        $(function() {
+            $("#bannerbtn").click(function() {
+                $("#infobanner").remove();
+            });
+            $(".nopad").hide().delay(500).each(function(i) {
+                $(this).delay(i * 150).fadeIn(150);
+            });
+        });
+    </script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+    <!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+    <script>
+        var __adobewebfontsappname__ = "dreamweaver"
+    </script>
+    
+</head>
+
+<body class="container-fluid">
+   
+    <header>
+        <a href="index.html">
+            <h1><span class="strain">s</span>h<span class="etrain">e</span><span class="btrain">b</span><span class="etrain">a</span><span class="rtrain">r</span><br id="titlebreak">.<span class="rtrain">n</span>y<span class="etrain">c</span></h1>
+        </a>
+    </header>
+    
+    <nav>
+        <ul class="sitelinks">
+            <li><a class="activelink">home</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="resume.html">resume</a></li>
+            <li><a href="/webmedia/index.html">web media</a></li>
+            <li><a href="music.html">music</a></li>
+            <li><a href="mailto:miles.shebar@gmail.com">contact</a></li>
+        </ul>
+        <ul class="extlinks">
+            <li><strong>//</strong> <a href="http://www.instagram.com/milesshebar" target="_blank">instagram</a></li>
+            <li><strong>//</strong> <a href="http://www.soundcloud.com/milly_dollaz" target="_blank">soundcloud</a></li>
+            <li><strong>//</strong> <a href="http://www.linkedin.com/in/milesshebar" target="_blank">linkedin</a></li>
+        </ul>
+    </nav>
+    
+    <div id="infobanner" style="background-color: lightgrey; animation-delay: 2s;">
+        <strong>News</strong>
+        <button id="bannerbtn" class="pull-right" style="outline: none; background-color: Transparent; background-repeat:no-repeat; border: none;">
+            <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+        <br>------------------<br>
+        <div class="newsitem">
+            <img class="img-responsive" src="_img/colorhorvitz.jpg"><br>
+            <a href="http://shebar.nyc/color" target="_blank">COLOR</a> was displayed in the Harry A. and Belulah Kahler Gallery in Horvitz Hall.
+        </div>
+        ------------------ <br>
+    </div>
+
+    <div class="imagegrid">
+        <div class="nopad col-lg-3 col-md-4 col-sm-6 col-xs-6">
+            <div class="hovereffect">
+                <video class="img-responsive center-block" src="video/project6.mp4" autoplay muted loop></video>
+                <a href="http://shebar.nyc/color" target="_blank">
+                    <div class="overlay">
+                        <h2>COLOR</h2><br><br>
+                        <h3><em>Web/Interactive</em><br><br></h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="nopad col-lg-3 col-md-4 col-sm-6 col-xs-6">
+            <div class="hovereffect">
+                <video class="img-responsive center-block" src="video/solitaryminds.mp4" autoplay muted loop></video>
+                <div class="overlay">
+                    <h2>Solitary Minds</h2><br>
+                    <h3><em>Motion Graphics</em><br><br>Moira Fett<br>
+                    </h3>
+                </div>
+            </div>
+        </div>
+        <div class="nopad col-lg-3 col-md-4 col-sm-6 col-xs-6">
+            <div class="hovereffect">
+                <img class="img-responsive center-block" src="_img/21sammy.gif">
+                <div class="overlay">
+                    <h2>Sammy Bananas<br><span style="font-size: .7em;">"21"</span> </h2>
+                    <h3><em>Motion Graphics</em><br><br>Fool's Gold Records<br>
+                    </h3>
+                </div>
+            </div>
+        </div>
+        <div class="nopad col-lg-3 col-md-4 col-sm-6 col-xs-6">
+            <div class="hovereffect">
+                <img class="img-responsive center-block" src="_img/bmyl.gif" alt="Giraffage">
+                <div class="overlay">
+                    <a href="https://www.youtube.com/watch?v=8SAt6SQwDeQ">
+                        <h2> <span style="font-size: .8em;">Giraffage</span><br> <span style="font-size: .6em;">"Bring Me Your Love"</span></h2>
+                        <h3 style="font-size:.8em;"><em>Motion Graphics/<br>Projection Design</em><br> <br>
+                            <span style="font-size: 1em;">Fool's Gold Records</span>
+                        </h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="nopad col-lg-3 col-md-4 col-sm-6 col-xs-6">
+            <div class="hovereffect">
+                <video class="img-responsive center-block" src="video/arb.mp4" autoplay muted loop></video>
+                <a href="https://www.youtube.com/watch?v=8g4XI_WITbQ" target="_blank">
+                    <div class="overlay">
+                        <h2><span style="font-size: .8em;">AT&T/Red Bull:</span><br><span style="font-size: .7em;">Full Speed</span></h2>
+                        <h3><em>VFX</em><br><br>Framestore<br>
+                        </h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="nopad col-lg-3 col-md-4 col-sm-6 col-xs-6">
+            <div class="hovereffect">
+                <img class="img-responsive center-block" src="_img/manman.gif">
+                <div class="overlay">
+                    <h2>ManMan Savage<br><span style="font-size: .7em;">"Water"</span></h2>
+                    <h3><em>Motion Graphics</em><br><br>Fool's Gold Records
+                    </h3>
+                </div>
+            </div>
+        </div>
+        
+        <div class="nopad col-lg-3 col-md-4 col-sm-6 col-xs-6">
+            <div class="hovereffect">
+                <img class="img-responsive center-block" src="_img/BRENMAR_2$FABO_LIKEABOSS_outnow.gif">
+                <div class="overlay">
+                    <h2>Brenmar<br><span style="font-size: .7em;">"Like a Boss"</span></h2>
+                    <h3><em>Motion Graphics</em><br><br>Fool's Gold Records
+                    </h3>
+                </div>
+            </div>
+        </div>
+        <div class="nopad col-lg-3 col-md-4 col-sm-6 col-xs-6">
+            <div class="hovereffect">
+                <img class="img-responsive center-block" src="_img/nhnov.gif">
+                <div class="overlay">
+                    <h2><span style="font-size: .7em;">Nick Hook/Novelist</span><br> <span style="font-size: .5em;">"Can't Tell Me Nothing"</span> </h2>
+                    <h3><em>Motion Graphics</em><br> <br> Fool's Gold Records
+                    </h3>
+                </div>
+            </div>
+        </div>
+        <div class="nopad col-lg-3 col-md-4 col-sm-6 col-xs-6">
+            <div class="hovereffect">
+                <img class="img-responsive center-block" src="_img/geotheory.gif">
+                <div class="overlay">
+                    <h2>Geotheory<br><span style="font-size: .7em;">"Submerged EP"</span></h2>
+                    <h3><em>Motion Graphics</em><br> <br> Fool's Gold Records
+                    </h3>
+                </div>
+            </div>
+        </div>
+        <div class="nopad col-lg-3 col-md-4 col-sm-6 col-xs-6">
+            <div class="hovereffect">
+                <img class="img-responsive center-block" src="_img/DamagedGoods-draft-3-(with-title-card).gif">
+                <div class="overlay">
+                    <h2>Damaged Goods<br><span style="font-size: .7em;">"Where Do You Go"</span></h2>
+                    <h3><em>Motion Graphics</em><br> <br> Fool's Gold Records
+                    </h3>
+                </div>
+            </div>
+        </div>
+        <div class="nopad col-lg-3 col-md-4 col-sm-6 col-xs-6">
+            <div class="hovereffect">
+                <video class="img-responsive center-block" src="video/honygif.mp4" autoplay muted loop></video>
+                <a href="https://www.youtube.com/watch?v=xawj5ojJVxY" target="_blank">
+                    <div class="overlay">
+                        <h2>Little Humans read: "Little Humans"</h2>
+                        <h3><em>Editing</em><br><br>Humans of New York</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="nopad col-lg-3 col-md-4 col-sm-6 col-xs-6">
+            <div class="hovereffect">
+                <img class="img-responsive center-block" src="_img/shout.gif">
+                <div class="overlay">
+                    <h2>Logo</h2>
+                    <h3><em>Motion Graphics</em><br><br>Shout</h3>
+                </div>
+            </div>
+        </div>
+        <div id="archivelink" class="nopad col-xs-12 text-center">
+            <a href="archive.html">archive</a>
+        </div>
+    </div>
+    
+    <script src="js/bootstrap.js"></script>
+    <script>
+        var slideIndex = 0;
+        carousel();
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("newsitem");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > x.length) {
+                slideIndex = 1
+            }
+            x[slideIndex - 1].style.display = "block";
+            setTimeout(carousel, 6000); // Change image every 2 seconds
+        }
+    </script>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-22892278-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

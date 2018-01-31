@@ -1,0 +1,243 @@
+@charset "UTF-8";
+
+.body1 {
+	background: linear-gradient(to right, black 50%, white 50%);
+	background-size: 200% 100%;
+	background-position:left bottom;
+	transition: background-position 1s ease;
+	
+}
+
+.fronttext {
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	color: grey;
+	
+}
+
+.delay1 {
+	animation: fadein 2s ease forwards;
+	animation-delay: 4s;
+	opacity: 0;
+	
+}
+
+.delay2 {
+	animation: fadein 2s ease forwards;
+	animation-delay: 6s;
+	opacity:0;
+}
+
+.delay3 {
+	animation: fadein 2s ease forwards;
+	animation-delay: 8s;
+	opacity:0;
+	
+}
+
+.delay4 {
+	animation: fadein 2s ease forwards;
+	animation-delay: 10s;
+	opacity: 0;
+	color: hsla(90,100%,50%,0.25);
+	font-size: 1.5em;
+}
+
+.afterClick {
+	display: none;
+}
+
+@keyframes fadein {
+	0% { opacity:0;}
+    100% {opacity:1;}
+}
+
+
+
+.timeline {
+	transition: opacity 2s ease;
+	opacity: 0;
+}
+
+.timeline-active {
+	opacity: 100;
+}
+
+.body2 {
+    background-position: right bottom;
+}
+
+
+
+.letter1 {
+	height: auto;
+	margin-top: 30px;
+	width: 38%;
+	max-width: 100%;
+	margin-bottom: 30px;
+}
+
+video {
+	width: 100%;
+	max-width: 410px;
+	height: auto;
+	padding-top: 19px;
+}
+
+.video1 {
+	height: 153px;
+	padding-top: 0px;
+	width: 38%;
+	
+}
+
+.atlas-chart {
+	max-width: 410px;
+}
+
+h1 {
+	-webkit-box-shadow: 0 0;
+	box-shadow: 0 0;
+	padding-bottom: 4px;
+	color: black;
+	padding-left: 10px;
+}
+.breaka {
+	width: 100%;
+	height: 3px;
+	background-color: hsla(214,100%,50%,.75);
+	margin-top: -12px;
+	margin-bottom: -18px;
+}
+
+p {
+	font-family: cabin;
+	color: black;
+	margin-left: 25px;
+	margin-top: 25px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.3em;
+	text-align: left;
+	text-indent: 15px;
+	line-height: 177%;
+	text-decoration: none;
+}
+
+
+@media (max-width:991px){
+	.letter1 {
+	width: 87%;
+	padding-bottom: 0px;
+	}
+.video1 {
+}
+h1 {
+	font-size: 2.5em;
+}
+.typerino {
+	margin-bottom: 9px;
+}
+}
+
+	
+
+.typerino{
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	color: chartreuse;
+	background-color: black;
+	text-decoration: none;
+	float: none;
+	border-width: 0px;
+}
+
+.type2 {
+	font-family: doppio-one;
+	color: hsla(214,100%,50%,1.00);
+	background-color: hsla(0,0%,100%,1.00);
+	text-decoration: none;
+	float: none;
+	border-width: 0px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.typed-cursor{
+	opacity: 1;
+	-webkit-animation: blink 0.7s infinite;
+	-moz-animation: blink 0.7s infinite;
+	animation: blink 0.7s infinite;
+}
+
+
+
+@keyframes blink{
+	0% { opacity:1; }
+	50% { opacity:0; }
+	100% { opacity:1; }
+}
+
+@-webkit-keyframes blink{
+	0% { opacity:1; }
+	50% { opacity:0; }
+	100% { opacity:1; }
+}
+
+@-moz-keyframes blink{
+	0% { opacity:1; }
+	50% { opacity:0; }
+	100% { opacity:1; }
+}
+
+.greetings {
+	margin-top: 25%;
+	transition: all 1s ease;
+}
+
+.unmistake2 {
+	margin-top: 2%;
+	
+}
+
+.bumpers {
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	color: hsla(93,100%,50%,1.00);
+}
+
+@media (max-width: 1082px){
+#unmistake h1 #typerino {
+	font-size: 0.75em;
+}
+}
+
+@media (max-width: 790px){
+}
+
+@media (max-width: 1246px){
+p {
+	font-size: 1.2em;
+}
+}
+
+@media (max-width: 766px){
+h1   {
+	font-size: 1.7em;
+}
+}
+
+@media (max-width: 600px){
+.typerino {
+	font-size: 0.9em;
+}
+}
+
+button:focus {
+	outline: 0;
+}
+
+input:focus { outline: none; }
+
+@media (max-width: 500px){
+.typerino {
+	font-size: 0.7em;
+}
+}

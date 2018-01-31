@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^webmedia/project6(.*) http://color.glitch.me/ [P]
+RewriteRule ^color(.*) http://color.glitch.me/ [P]

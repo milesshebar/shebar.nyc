@@ -1,0 +1,467 @@
+@charset "UTF-8";
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+#no3 {
+	animation: fadein .3s ease;
+	opacity: 0;
+	animation-delay: .3s;
+	animation-fill-mode: forwards;
+
+}
+#no4 {
+	animation: fadein .3s ease;
+	opacity: 0;
+	animation-delay: .5s;
+	animation-fill-mode: forwards;
+}
+#no5 {
+	animation: fadein .3s ease;
+	animation-delay: .7s;
+	opacity: 0;
+	animation-fill-mode: forwards;
+}
+#no6 {
+	animation: fadein .3s ease;
+	animation-delay: .9s;
+	opacity: 0;
+	animation-fill-mode: forwards;
+}
+#no7 {
+	animation: fadein .3s ease;
+	animation-delay: 1.1s;
+	opacity: 0;
+	animation-fill-mode: forwards;
+}
+#no8 {
+	animation: fadein .3s ease;
+	animation-delay: 1.3s;
+	opacity: 0;
+	animation-fill-mode: forwards;
+}
+
+#no9 {
+	animation: fadein .3s ease;
+	animation-delay: 1.5s;
+	opacity: 0;
+	animation-fill-mode: forwards;
+}
+
+#no10 {
+	animation: fadein .3s ease;
+	animation-delay: 1.7s;
+	opacity: 0;
+	animation-fill-mode: forwards;
+}
+
+#bigwerd {
+	line-height: 0%
+}
+
+.blackline {
+	background-color: black;
+	height: 70px;
+	color: hsla(0,0%,98%,1.00);
+	font-size: 1em;
+	
+}
+
+.profile {
+	position: absolute;
+	margin-left: 280px;
+	margin-top: 80px;
+}
+
+.yearimage {
+	margin-top: -40px;
+	margin-left: 39px;
+	width: 188px;
+}
+
+.yearimagespaced {
+	margin-top: -33.8px;
+	margin-left: 39px;
+	width: 188px;
+}
+
+.whiteline {
+	background-color: white;
+	height: 70px;
+	
+	
+}
+
+
+
+.spacer {
+	margin-top: 2101.5px;
+}
+
+.whiteline2 {
+	background-color: white;
+	height: 70px;
+	background-image: url(_img/lewitt2.png);
+	
+	
+}
+
+header {
+	position: fixed;
+	z-index: 25;
+	background-color: black;
+}
+
+h1 {
+	font-size: 4.2em;
+	color: white;
+	transition: color .5s ease;
+	margin-top: -5px;
+	padding-top: 11px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 72px;
+}
+
+h1:hover {
+	color: black;
+}
+
+.art {
+	position: relative;
+	max-height: 490px;
+	float: right;
+}
+
+.resize {
+	height: 490px;
+}
+
+nav {
+	font-family: 'Overpass Mono', monospace;
+	position: fixed;
+	margin-top: 55px;
+	margin-left: 45px;
+	z-index: 53;
+}
+
+h3 {
+	font-family: 'Overpass Mono', monospace;
+	color: white;
+	font-size: 3.5em;
+	margin-left: 51px;
+}
+
+#quote1 {
+	padding-top: 300px;
+	padding-left: 21px;
+	font-size: 5em;
+}
+
+#early {
+	position: absolute;
+	font-family: 'Overpass Mono', monospace;
+	color: black;
+	font-size: 3.5em;
+	margin-left: 13%;
+	transform: rotate(-90deg);
+	margin-top: 899px;
+	letter-spacing: 41px;
+}
+
+#middle {
+	position: absolute;
+	font-family: 'Overpass Mono', monospace;
+	color: white;
+	font-size: 3.5em;
+	margin-left: 13%;
+	transform: rotate(-90deg);
+	letter-spacing: 41px;
+	padding-left: 142px;
+	margin-top: 1530px;
+}
+
+#late {
+	position: absolute;
+	font-family: 'Overpass Mono', monospace;
+	color: white;
+	font-size: 3.5em;
+	margin-left: 13%;
+	transform: rotate(-90deg);
+	letter-spacing: 41px;
+	margin-top: 2100px;
+	padding-left: 150px;
+}
+
+.biotext {
+}
+.abouthead {
+	margin-top: 41px;
+	padding-top: 60px;
+}
+.artcaption {
+	position: absolute;
+	margin-left: 144px;
+	text-align: right;
+	margin-top: 28px;
+}
+
+.artcaption2 {
+	position: absolute;
+	margin-left: -30px;
+	text-align: right;
+	margin-top: 28px;
+}
+
+.artcaption3 {
+	position: absolute;
+	margin-left: -120px;
+	text-align: right;
+	margin-top: 28px;
+}
+.aboutcontentblock video {
+	position: absolute;
+	text-align: right;
+	float: right;
+	margin-left: 37%;
+	margin-top: 30px;
+}
+#quote2 {
+	padding-top: 0px;
+	padding-left: 115px;
+	font-size: 3em;
+}
+#quote3 {
+	padding-top: 0px;
+	padding-left: 157px;
+	font-size: 3em;
+}
+#quote4
+{
+	padding-top: 0px;
+	float: right;
+	font-size: 3em;
+	padding-right: 75px;
+}
+
+p {
+	font-family: 'Overpass Mono', monospace;
+	color: white;
+	margin-left: 51px;
+	padding-right: 0px;
+	width: 42%;
+}
+
+.slant {
+	position: fixed;
+	height: 80px;
+	transform: rotate(45deg);
+	width: 140%;
+	border-spacing: 0px 0px;
+	
+	
+}
+
+h2 {
+	font-size: 2em;
+	
+}
+
+a {
+	text-decoration: inherit;
+	color: white;
+	transition: color .5s ease;
+}
+
+
+
+
+a:hover {
+	color: #A63029;
+}
+
+.inlineimg {
+	position: static;
+	display: inherit;
+	width: 308px;
+	margin-left: 35%;
+	transition: opacity 1s ease;
+	padding-top: 279px;
+}
+
+.inlineimg:hover {
+	opacity: .75;
+}
+
+.whirls {
+	margin-top: -165px;
+	width: 1706px;
+	float: right;
+	height: 1110px;
+	opacity: 0;
+	animation: fadein 2s ease;
+	animation-delay: 1.7s;
+	animation-fill-mode: forwards;
+}
+
+.triangle {
+	padding-bottom: 0px;
+	margin-bottom: -88px;
+	width: 327px;
+	z-index: -1;
+	margin-left: 20%;
+	margin-top: -1px;
+}
+
+.cube {
+	padding-bottom: 0px;
+	margin-bottom: -688px;
+	width: 420px;
+	margin-left: 45%;
+}
+
+.contentblock {
+	height: 488px;
+	background-color: black;
+	width: 63%;
+	margin-left: 25%;
+	margin-top: -2030px;
+}
+
+.aboutcontentblock {
+	height: 630px;
+	background-color: black;
+	width: 63%;
+	margin-left: 25%;
+	margin-top: -2470px;
+}
+
+ul {
+	list-style-type: none;
+	width: 0px;
+	padding-top: 69px;
+	padding-right: 69px;
+	padding-left: 69px;
+	padding-bottom: 69px;
+	display: inline;
+	margin-left: 58px;
+}
+section {
+	margin-top: -1197px;
+}
+
+#aboutblock   {
+	height: 0px;
+}
+#workblock   {
+}
+
+
+@media (max-width: 819px){
+	.whirls {
+	margin-top: -25px;		
+	}
+}
+
+@media (max-width: 1470px){
+	header {
+	width: 100%;
+	text-align: center;
+	}
+	nav {
+	text-align: center;
+	width: 100%;
+	margin-top: 60px;
+	margin-left: 0px;
+	}
+.aboutcontentblock {
+	width: 100%;
+	margin-left: 0px;
+}
+.aboutcontentblock video {
+	float: right;
+	width: 27%;
+	margin-left: 56%;
+}
+.contentblock {
+	width: 100%;
+	margin-left: 0px;
+}
+.profile {
+	text-align: center;
+}
+	
+}
+
+@media (max-width: 375px){
+header {
+	text-align: center;
+}
+}
+
+@media (max-width: 1088px){
+	video {
+		display: none;
+	}
+}
+
+@media (max-width: 924px){
+	.abouthead {
+	padding-top: 2%;
+		}
+}
+
+@media (max-width: 844px){
+.art {
+	display: none;
+}
+.biotext {
+	width: 80%;
+}
+}
+
+@media (max-width: 768px){
+	#quote1 {
+		font-size: 3em;
+	}
+	#quote2 {
+		font-size: 2em;
+	}
+	#quote3 {
+		font-size: 2em;
+	}
+	#quote4 {
+		font-size: 2em;
+	}
+	
+}
+
+@media (max-width: 562px){
+	#quote1 {
+		margin-left: 0px;
+	}
+	#quote2 {
+		padding-left: 0px;
+	}
+	#quote3 {
+		padding-left: 0px;
+	}
+	#quote4 {
+		padding-left: 0px;
+	}
+}
+
+@media (max-width: 660px){
+.profile {
+	margin-left: 15%;
+}
+}
+
+@media (max-width: 480px){
+.biotext {
+	font-size: 0.9em;
+	padding-right: 25px;
+}
+}
