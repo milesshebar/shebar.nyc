@@ -28,6 +28,20 @@ h1 {
     font-size: 3em;
 }
 
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
 #kenyonspan {
     -webkit-transition: background-color .5s ease;
     transition: background-color .5s ease;
@@ -500,6 +514,19 @@ h2 {
     max-width: 710px;
 }
 
+.iconbox {
+    max-height: 100%;
+    padding-right: 154px;
+    padding-top: 0px;
+    position: absolute;
+    text-align: left;
+    padding-left: 51px;
+    width: 605px;
+    margin-left: 299px;
+    margin-top: 460px;
+    max-width: 710px;
+}
+
 .aboutbox2 {
     max-height: 100%;
     padding-right: 50px;
@@ -634,6 +661,12 @@ nav {
         margin-top: -100px;
         text-align: left;
     }
+    .icon@box {
+        padding: 0;
+        margin-left: 19px;
+        margin-top: -100px;
+        text-align: left;
+    }
     .container-fluid header video {
         display: inline;
     }
@@ -714,6 +747,15 @@ nav {
         margin-top: -145px;
         margin-left: 15px;
         margin-bottom: 93px;
+    }
+    .iconbox {
+        margin-top: 480px;
+        margin-left: 0px;
+        margin-bottom: 93px;
+        width: 70%;
+        padding-right: 20px;
+        padding-left: 30px;
+        
     }
     .mq3 {
         display: inline;
