@@ -8,8 +8,10 @@ Personal website built in 2017 for Kenyon's ARTS 391: Web Media class. First sit
 - [ ] Add alt tags to all images
 - [ ] Remove inline styling wherever possible
 - [ ] Leverage browser caching for image content
-- [ ] Minify JS/CSS
+- [ ] Minify JS/CSS for faster serving
+- [ ] Optimize images
 - [ ] Start serving content over HTTPS before Chrome 68 update
 - [ ] Add keywords to meta tags in header
+- [ ] Beautify code
 - [ ] Asynchronously load webfonts?
 - [x] Update sitemap
