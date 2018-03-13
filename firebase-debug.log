@@ -1,0 +1,23 @@
+[debug] [2018-03-13T07:30:39.269Z] ----------------------------------------------------------------------
+[debug] [2018-03-13T07:30:39.270Z] Command:       /usr/local/Cellar/node/9.8.0/bin/node /usr/local/bin/firebase deploy
+[debug] [2018-03-13T07:30:39.271Z] CLI Version:   3.17.5
+[debug] [2018-03-13T07:30:39.271Z] Platform:      darwin
+[debug] [2018-03-13T07:30:39.271Z] Node Version:  v9.8.0
+[debug] [2018-03-13T07:30:39.271Z] Time:          Tue Mar 13 2018 03:30:39 GMT-0400 (EDT)
+[debug] [2018-03-13T07:30:39.271Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-03-13T07:30:39.281Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-03-13T07:30:39.281Z] > authorizing via signed-in user
+[debug] [2018-03-13T07:30:39.283Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/shebar-nyc  
+  
+ Tue Mar 13 2018 03:30:39 GMT-0400 (EDT)
+[debug] [2018-03-13T07:30:39.669Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-13T07:30:39.669Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/shebar-nyc/tokens  
+  
+ Tue Mar 13 2018 03:30:39 GMT-0400 (EDT)
+[debug] [2018-03-13T07:30:40.012Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'shebar-nyc'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing / directory for upload...
