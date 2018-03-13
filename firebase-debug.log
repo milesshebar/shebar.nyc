@@ -1,23 +1,32 @@
-[debug] [2018-03-13T07:30:39.269Z] ----------------------------------------------------------------------
-[debug] [2018-03-13T07:30:39.270Z] Command:       /usr/local/Cellar/node/9.8.0/bin/node /usr/local/bin/firebase deploy
-[debug] [2018-03-13T07:30:39.271Z] CLI Version:   3.17.5
-[debug] [2018-03-13T07:30:39.271Z] Platform:      darwin
-[debug] [2018-03-13T07:30:39.271Z] Node Version:  v9.8.0
-[debug] [2018-03-13T07:30:39.271Z] Time:          Tue Mar 13 2018 03:30:39 GMT-0400 (EDT)
-[debug] [2018-03-13T07:30:39.271Z] ----------------------------------------------------------------------
+[debug] [2018-03-13T08:19:31.862Z] ----------------------------------------------------------------------
+[debug] [2018-03-13T08:19:31.864Z] Command:       /usr/local/Cellar/node/9.8.0/bin/node /usr/local/bin/firebase serve
+[debug] [2018-03-13T08:19:31.864Z] CLI Version:   3.17.5
+[debug] [2018-03-13T08:19:31.865Z] Platform:      darwin
+[debug] [2018-03-13T08:19:31.865Z] Node Version:  v9.8.0
+[debug] [2018-03-13T08:19:31.865Z] Time:          Tue Mar 13 2018 04:19:31 GMT-0400 (EDT)
+[debug] [2018-03-13T08:19:31.865Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2018-03-13T07:30:39.281Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2018-03-13T07:30:39.281Z] > authorizing via signed-in user
-[debug] [2018-03-13T07:30:39.283Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/shebar-nyc  
+[debug] [2018-03-13T08:19:31.879Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-03-13T08:19:31.880Z] > authorizing via signed-in user
+[debug] [2018-03-13T08:19:31.881Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/shebar-nyc  
   
- Tue Mar 13 2018 03:30:39 GMT-0400 (EDT)
-[debug] [2018-03-13T07:30:39.669Z] <<< HTTP RESPONSE 200
-[debug] [2018-03-13T07:30:39.669Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/shebar-nyc/tokens  
+ Tue Mar 13 2018 04:19:31 GMT-0400 (EDT)
+[debug] [2018-03-13T08:19:32.205Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-13T08:19:32.205Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/shebar-nyc/tokens  
   
- Tue Mar 13 2018 03:30:39 GMT-0400 (EDT)
-[debug] [2018-03-13T07:30:40.012Z] <<< HTTP RESPONSE 200
+ Tue Mar 13 2018 04:19:32 GMT-0400 (EDT)
+[debug] [2018-03-13T08:19:32.663Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-13T08:19:32.664Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/shebar-nyc  
+  
+ Tue Mar 13 2018 04:19:32 GMT-0400 (EDT)
+[debug] [2018-03-13T08:19:32.958Z] <<< HTTP RESPONSE 200
 [info] 
-[info] === Deploying to 'shebar-nyc'...
+[info] === Serving from '/Users/milesshebar/Desktop/Me/Website'...
 [info] 
-[info] i  deploying hosting
-[info] i  hosting: preparing / directory for upload...
+[debug] [2018-03-13T08:19:32.961Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/546863062401/clients/_:getWebAppConfig  
+  
+ Tue Mar 13 2018 04:19:32 GMT-0400 (EDT)
+[debug] [2018-03-13T08:19:33.487Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: /
+[info] ✔  hosting: Local server: http://localhost:5000
+
