@@ -1,6 +1,6 @@
 # shebar.nyc
 ---
-Personal website built in 2017 for Kenyon's ARTS 391: Web Media class. First site I've ever designed/coded from the ground up, so please excuse the mess! Currently in the process of rewriting the backend and simplifying the code.  
+Personal website built in 2017, originally as a final project for Kenyon's ARTS 391: Web Media class. First site I've ever designed/coded from the ground up, so please excuse the mess! Currently in the process of rewriting the backend and simplifying the code.  
 
 ## Todo:
 - [ ] Rewrite CSS from ground up (the biggest kahuna)
