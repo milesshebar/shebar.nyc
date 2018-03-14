@@ -5,13 +5,16 @@ Personal website built in 2017, originally as a final project for Kenyon's ARTS 
 ## Todo:
 - [ ] Rewrite CSS from ground up (the biggest kahuna)
 - [ ] Link to external sites with HTTPS
-- [x] Add alt tags to all images
+- [x] Add alt tags to images (still must do this for imagegrid)
+- [ ] get rid of .html extensions on each page by adding new folder hierarchy
 - [ ] Remove inline styling wherever possible
 - [ ] Leverage browser caching for image content
 - [ ] Minify JS/CSS for faster serving
 - [ ] Optimize images
 - [ ] Start serving content over HTTPS before Chrome 68 update
-- [ ] Add keywords to meta tags in header
-- [ ] Beautify code
+- [x] Add keywords to meta tags in header
+- [x] Beautify code
 - [ ] Asynchronously load webfonts?
 - [x] Update sitemap
+- [x] create robots.txt and add sitemap.xml
+- [x] add resume button to about page
