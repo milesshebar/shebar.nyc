@@ -9,8 +9,10 @@ Personal website built in 2017, originally as a final project for Kenyon's ARTS 
 - [ ] Minify JS/CSS for faster serving
 - [x] Link to external sites with HTTPS
 - [x] Add alt tags to images (still must do this for imagegrid)
-- [ ] get rid of .html extensions on each page by adding new folder hierarchy
+- [x] get rid of .html extensions on each page by adding new folder hierarchy
 - [ ] update site to Bootstrap 4
+- [x] prune dwsync files
+- [x] add humans.txt
 - [ ] Optimize images
 - [ ] Start serving content over HTTPS before Chrome 68 update
 - [x] Beautify code
