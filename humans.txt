@@ -1,0 +1,15 @@
+//** SHEBAR.NYC **//
+
+/* TEAM */
+
+Lead Designer and Developer: Miles Shebar
+Site: http://shebar.nyc
+Instagram: @milesshebar
+Location: New York, NY and Gambier, OH
+
+/* SITE */
+
+GitHub: https://github.com/milesshebar/shebar.nyc
+Standards: HTML5, CSS3
+Components: Bootstrap 3, jQuery
+Software: Atom (prev. Brackets & Dreamweaver), Transmit (prev. FileZilla)
