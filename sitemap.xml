@@ -1,94 +1,206 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+	xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+>
 <!-- created with Scrutiny from http://peacockmedia.software -->
 
 	<url>
 		<loc>http://shebar.nyc</loc>
-		<lastmod>2018-02-06</lastmod>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>1.0</priority>
+		<image:image>
+		<image:loc>http://shebar.nyc/apple-touch-icon.png?v=WGaxpWrbzG</image:loc>
+		</image:image>
+		<image:image>
+		<image:loc>http://shebar.nyc/favicon-32x32.png?v=WGaxpWrbzG</image:loc>
+		</image:image>
+		<image:image>
+		<image:loc>http://shebar.nyc/favicon-16x16.png?v=WGaxpWrbzG</image:loc>
+		</image:image>
+		<image:image>
+		<image:loc>http://shebar.nyc/safari-pinned-tab.svg?v=WGaxpWrbzG</image:loc>
+		</image:image>
+		<image:image>
+		<image:loc>http://shebar.nyc/favicon.ico?v=WGaxpWrbzG</image:loc>
+		</image:image>
+		<image:image>
+		<image:loc>http://shebar.nyc/_img/bmyl.gif</image:loc>
+		<image:title> Giraffage</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>http://shebar.nyc/_img/uad_generic.gif</image:loc>
+		</image:image>
+		<image:image>
+		<image:loc>http://shebar.nyc/_img/BRENMAR_2$FABO_LIKEABOSS_outnow.gif</image:loc>
+		</image:image>
+		<image:image>
+		<image:loc>http://shebar.nyc/_img/nhnov.gif</image:loc>
+		</image:image>
+		<image:image>
+		<image:loc>http://shebar.nyc/_img/geotheory.gif</image:loc>
+		</image:image>
 	</url>
 	<url>
 		<loc>http://shebar.nyc/index.html</loc>
-		<lastmod>2018-02-06</lastmod>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>http://shebar.nyc/about.html</loc>
-		<lastmod>2018-02-08</lastmod>
+		<loc>http://shebar.nyc/resume/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>http://shebar.nyc/resume.html</loc>
-		<lastmod>2018-01-31</lastmod>
+		<loc>http://shebar.nyc/about/</loc>
+		<lastmod>2018-04-10</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.5</priority>
+		<image:image>
+		<image:loc>http://shebar.nyc/_img/profile3.jpg</image:loc>
+		<image:title> Photograph of Miles Shebar.</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>http://shebar.nyc/acting/</loc>
+		<lastmod>2018-04-09</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.5</priority>
+		<image:image>
+		<image:loc>http://shebar.nyc/favicon.ico</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>http://shebar.nyc/video/</loc>
+		<lastmod>2018-04-09</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>http://shebar.nyc/music.html</loc>
-		<lastmod>2018-01-31</lastmod>
+		<loc>http://shebar.nyc/music/</loc>
+		<lastmod>2018-04-09</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>http://shebar.nyc/video.html</loc>
-		<lastmod>2018-01-31</lastmod>
+		<loc>http://shebar.nyc/webmedia/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>http://shebar.nyc/acting.html</loc>
-		<lastmod>2018-02-04</lastmod>
+		<loc>http://shebar.nyc/color</loc>
+		<lastmod>2018-03-14</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>http://shebar.nyc/archive/</loc>
+		<lastmod>2018-04-09</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.5</priority>
+		<image:image>
+		<image:loc>http://shebar.nyc/_img/manman.gif</image:loc>
+		</image:image>
+		<image:image>
+		<image:loc>http://shebar.nyc/_img/21sammy.gif</image:loc>
+		</image:image>
+		<image:image>
+		<image:loc>http://shebar.nyc/_img/DamagedGoods-draft-3-(with-title-card).gif</image:loc>
+		</image:image>
+		<image:image>
+		<image:loc>http://shebar.nyc/_img/shout.gif</image:loc>
+		</image:image>
+		<image:image>
+		<image:loc>http://shebar.nyc/_img/Untitled-2.gif</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>http://shebar.nyc/about/index.html</loc>
+		<lastmod>2018-04-10</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.3</priority>
+	</url>
+	<url>
+		<loc>http://shebar.nyc/webmedia/project6</loc>
+		<lastmod>2018-03-14</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.3</priority>
+	</url>
+	<url>
+		<loc>http://shebar.nyc/webmedia/project5/</loc>
+		<lastmod>2018-03-14</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.3</priority>
+		<image:image>
+		<image:loc>http://shebar.nyc/_img/glitchart.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>http://shebar.nyc/webmedia/project4/</loc>
+		<lastmod>2017-05-10</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.3</priority>
+		<image:image>
+		<image:loc>http://shebar.nyc/webmedia/project4/_img/icon.png</image:loc>
+		</image:image>
+		<image:image>
+		<image:loc>http://shebar.nyc/webmedia/project4/_img/Buckeye.png</image:loc>
+		</image:image>
+		<image:image>
+		<image:loc>http://shebar.nyc/webmedia/project4/_img/tram1bw.jpg</image:loc>
+		</image:image>
+		<image:image>
+		<image:loc>http://shebar.nyc/webmedia/project4/_img/ktray2bw.png</image:loc>
+		</image:image>
+		<image:image>
+		<image:loc>http://shebar.nyc/webmedia/project4/_img/gundiebw.jpg</image:loc>
+		</image:image>
+		<image:image>
+		<image:loc>http://shebar.nyc/webmedia/project4/_img/Buckeye_compressed.jpg</image:loc>
+		</image:image>
+		<image:image>
+		<image:loc>http://shebar.nyc/webmedia/project4/_img/made-in-ohio.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>http://shebar.nyc/webmedia/project3/</loc>
+		<lastmod>2017-05-10</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.3</priority>
+		<image:image>
+		<image:loc>http://shebar.nyc/webmedia/project3/_img/walltest.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>http://shebar.nyc/webmedia/project1/</loc>
+		<lastmod>2018-04-09</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.3</priority>
+		<image:image>
+		<image:loc>http://shebar.nyc/_img/duane.gif</image:loc>
+		</image:image>
+		<image:image>
+		<image:loc>http://shebar.nyc/_img/lighting-studio-smart-home.gif</image:loc>
+		</image:image>
 	</url>
 	<url>
 		<loc>http://shebar.nyc/webmedia/index.html</loc>
-		<lastmod>2018-02-04</lastmod>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>weekly</changefreq>
-		<priority>0.5</priority>
-	</url>
-	<url>
-		<loc>http://shebar.nyc/archive.html</loc>
-		<lastmod>2018-01-31</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.5</priority>
-	</url>
-	<url>
-		<loc>http://shebar.nyc/webmedia/project5/index.html</loc>
-		<lastmod>2017-04-27</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.3</priority>
+		<priority>0.2</priority>
 	</url>
 	<url>
 		<loc>http://shebar.nyc/webmedia/project4/index.html</loc>
 		<lastmod>2017-05-10</lastmod>
 		<changefreq>weekly</changefreq>
-		<priority>0.3</priority>
-	</url>
-	<url>
-		<loc>http://shebar.nyc/webmedia/project3/index.html</loc>
-		<lastmod>2017-05-10</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.3</priority>
-	</url>
-	<url>
-		<loc>http://shebar.nyc/webmedia/project2/index.html</loc>
-		<lastmod>2017-05-10</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.3</priority>
-	</url>
-	<url>
-		<loc>http://shebar.nyc/webmedia/project1/index.html</loc>
-		<lastmod>2017-05-10</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.3</priority>
+		<priority>0.2</priority>
 	</url>
 	<url>
 		<loc>http://shebar.nyc/webmedia/project4/about.html</loc>
-		<lastmod>2017-04-24</lastmod>
+		<lastmod>2018-03-14</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.2</priority>
 	</url>
@@ -97,48 +209,105 @@
 		<lastmod>2017-05-10</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.2</priority>
+		<image:image>
+		<image:loc>http://shebar.nyc/webmedia/project4/_img/90ec7a34543c7b8d2ecf0f6b9a9d4ee9.jpg</image:loc>
+		</image:image>
+		<image:image>
+		<image:loc>http://shebar.nyc/webmedia/project4/_img/crop11317-87.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>http://shebar.nyc/webmedia/project4/metro.html</loc>
+		<lastmod>2018-04-09</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.2</priority>
+		<image:image>
+		<image:loc>http://shebar.nyc/webmedia/project4/_img/tram1.jpg</image:loc>
+		</image:image>
+		<image:image>
+		<image:loc>http://shebar.nyc/webmedia/project4/_img/trainmap.png</image:loc>
+		</image:image>
+		<image:image>
+		<image:loc>http://shebar.nyc/webmedia/project4/_img/tram2.jpg</image:loc>
+		</image:image>
 	</url>
 	<url>
 		<loc>http://shebar.nyc/webmedia/project4/ktray.html</loc>
 		<lastmod>2017-05-10</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.2</priority>
-	</url>
-	<url>
-		<loc>http://shebar.nyc/webmedia/project3/about.html</loc>
-		<lastmod>2017-05-10</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.2</priority>
-	</url>
-	<url>
-		<loc>http://shebar.nyc/webmedia/project4/metro.html</loc>
-		<lastmod>2017-05-10</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.2</priority>
+		<image:image>
+		<image:loc>http://shebar.nyc/webmedia/project4/_img/disgruntledsucklingpig.png</image:loc>
+		</image:image>
+		<image:image>
+		<image:loc>http://shebar.nyc/webmedia/project4/_img/ktray.png</image:loc>
+		</image:image>
+		<image:image>
+		<image:loc>http://shebar.nyc/webmedia/project4/_img/ktray2.png</image:loc>
+		</image:image>
 	</url>
 	<url>
 		<loc>http://shebar.nyc/webmedia/project4/gund.html</loc>
 		<lastmod>2017-04-27</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.2</priority>
+		<image:image>
+		<image:loc>http://shebar.nyc/webmedia/project4/_img/gundie.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>http://shebar.nyc/webmedia/project3/about.html</loc>
+		<lastmod>2018-03-14</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.2</priority>
+		<image:image>
+		<image:loc>http://shebar.nyc/webmedia/project3/_img/sol-lewitt.jpg</image:loc>
+		</image:image>
+		<image:image>
+		<image:loc>http://shebar.nyc/webmedia/project3/_img/standing-open-structure-black-1964.png</image:loc>
+		</image:image>
+		<image:image>
+		<image:loc>http://shebar.nyc/webmedia/project3/_img/51.jpg</image:loc>
+		</image:image>
+		<image:image>
+		<image:loc>http://shebar.nyc/webmedia/project3/_img/wd880.jpg</image:loc>
+		</image:image>
 	</url>
 	<url>
 		<loc>http://shebar.nyc/webmedia/project3/work.html</loc>
+		<lastmod>2018-03-14</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.2</priority>
+		<image:image>
+		<image:loc>http://shebar.nyc/webmedia/project3/_img/1962.png</image:loc>
+		</image:image>
+		<image:image>
+		<image:loc>http://shebar.nyc/webmedia/project3/_img/B33MryaIe-8m.jpg</image:loc>
+		</image:image>
+		<image:image>
+		<image:loc>http://shebar.nyc/webmedia/project3/_img/1968.png</image:loc>
+		</image:image>
+		<image:image>
+		<image:loc>http://shebar.nyc/webmedia/project3/_img/Buried-cube.jpg</image:loc>
+		</image:image>
+		<image:image>
+		<image:loc>http://shebar.nyc/webmedia/project3/_img/1985.png</image:loc>
+		</image:image>
+		<image:image>
+		<image:loc>http://shebar.nyc/webmedia/project3/_img/wd439.png</image:loc>
+		</image:image>
+		<image:image>
+		<image:loc>http://shebar.nyc/webmedia/project3/_img/2002.png</image:loc>
+		</image:image>
+		<image:image>
+		<image:loc>http://shebar.nyc/webmedia/project3/_img/wd1037.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>http://shebar.nyc/webmedia/project3/index.html</loc>
 		<lastmod>2017-05-10</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.2</priority>
-	</url>
-	<url>
-		<loc>http://shebar.nyc/color</loc>
-		<lastmod>2018-03-09</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.5</priority>
-	</url>
-	<url>
-		<loc>http://shebar.nyc/webmedia/project6</loc>
-		<lastmod>2018-03-09</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.3</priority>
 	</url>
 
 </urlset>
