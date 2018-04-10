@@ -28,9 +28,6 @@
   <script src="../js/jquery-1.11.3.min.js"></script>
   <script>
     $(function() {
-      $("#bannerbtn").click(function() {
-        $("#infobanner").remove();
-      });
       $(".nopad").hide().delay(500).each(function(i) {
         $(this).delay(i * 150).fadeIn(150);
       });
@@ -101,40 +98,7 @@
     </ul>
   </nav>
 
-  <!--<div id="infobanner" style="background-color: lightgrey; animation-delay: 2s;">
-    <strong>News</strong>
-    <button id="bannerbtn" class="pull-right" style="outline: none; background-color: Transparent; background-repeat:no-repeat; border: none;">
-            <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
-        </button>
-    <br>------------------<br>
 
-    <div class="newsitem">
-      <img class="img-responsive" alt="Cover art for new album." src="_img/cover.jpg"><br> New album:<br> MIL E $ <br> <a href="spotify:album:5iI7AqPY6c3V7tqLfTe2O3" target="_blank" rel="noopener">Spotify</a> | <a href="https://geo.itunes.apple.com/us/album/mil-e-%24/1318615528?uo=4&app=music&ls=1&at=1000lHKX"
-        target="_blank" rel="noopener">Apple Music</a> <br> <a href="http://soundcloud.com/milly_dollaz/sets/album" target="_blank" rel="noopener">Soundcloud</a> | <a href="http://millydollaz.bandcamp.com/" target="_blank" rel="noopener">Bandcamp</a>
-    </div>
-
-    <div class="newsitem">
-
-      <img class="img-responsive" alt="Photograph of COLOR on view at the Wright Center in Mount Vernon, OH" src="_img/IMG_20171204_172549.jpg"><br><a href="http://shebar.nyc/color">COLOR</a> was on view last month at the <a href="http://calendar.kenyon.edu/event/the_pop_up_show_art_exhibition#.Wi9I3FQ-fOQ" target="_blank" rel="noopener">Wright Center</a>      in Mount Vernon, OH.
-    </div>
-
-    <div class="newsitem">
-
-      <img class="img-responsive" alt="Cover art for new single StuttaStep (feat. Adama)" src="_img/stutta.png">
-      <br>New single: <br> StuttaStep (feat. Adama)<br>
-      <a href="spotify:track:4wgLa0WpAGgWNY5UpbALzG" target="_blank" rel="noopener">Spotify</a> | <a href="https://geo.itunes.apple.com/us/album/stuttastep-feat-adama/1318605331?i=1318605339&uo=4&app=music&ls=1&at=1000lHKX" target="_blank" rel="noopener">Apple Music</a>
-      <a href="http://soundcloud.com/milly_dollaz/stuttastep" target="_blank" rel="noopener">Soundcloud</a> | <a href="http://millydollaz.bandcamp.com/" target="_blank" rel="noopener">Bandcamp</a>
-    </div>
-
-    <div class="newsitem">
-      <img class="img-responsive" alt="Cover art for new album." src="_img/cover.jpg"><br> New album:<br> MIL E $ <br> <a href="spotify:album:5iI7AqPY6c3V7tqLfTe2O3" target="_blank" rel="noopener">Spotify</a> | <a href="https://geo.itunes.apple.com/us/album/mil-e-%24/1318615528?uo=4&app=music&ls=1&at=1000lHKX"
-        target="_blank" rel="noopener">Apple Music</a> <br> <a href="http://soundcloud.com/milly_dollaz/sets/album" target="_blank" rel="noopener">Soundcloud</a> | <a href="http://millydollaz.bandcamp.com/" target="_blank" rel="noopener">Bandcamp</a>
-    </div>
-
-
-    ------------------ <br>
-  </div>
--->
   <div class="imagegrid">
 
     <div class="nopad col-lg-3 col-md-4 col-sm-6 col-xs-6">
@@ -301,24 +265,6 @@
   </div>
 
   <script src="js/bootstrap.js"></script>
-  <script>
-    var slideIndex = 0;
-    carousel();
-
-    function carousel() {
-      var i;
-      var x = document.getElementsByClassName("newsitem");
-      for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";
-      }
-      slideIndex++;
-      if (slideIndex > x.length) {
-        slideIndex = 1
-      }
-      x[slideIndex - 1].style.display = "block";
-      setTimeout(carousel, 8000); // Change image every 2 seconds
-    }
-  </script>
   <script>
     (function(i, s, o, g, r, a, m) {
       i['GoogleAnalyticsObject'] = r;
