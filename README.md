@@ -4,12 +4,9 @@ Personal website built in 2017, originally as a final project for Kenyon's ARTS 
 ## Todo:
 - [x] Add keywords to meta tags in header
 - [x] Leverage browser caching for image content (add expires headers)
-- [ ] Remove inline styling wherever possible
-- [ ] Minify JS/CSS for faster serving
 - [x] Link to external sites with HTTPS
 - [x] Add alt tags to images (still must do this for imagegrid)
 - [x] get rid of .html extensions on each page by adding new folder hierarchy
-- [ ] update site to Bootstrap 4
 - [x] prune dwsync files
 - [x] add humans.txt
 - [ ] Optimize images
@@ -17,4 +14,9 @@ Personal website built in 2017, originally as a final project for Kenyon's ARTS 
 - [x] Beautify code
 - [ ] Asynchronously load webfonts?
 - [x] add about button to resume page
+
+## Big Jobs:
+- [ ] Remove inline styling wherever possible
+- [ ] update site to Bootstrap 4
 - [ ] Rewrite CSS from ground up (the biggest kahuna)
+- [ ] Minify JS/CSS for faster serving, add build system
