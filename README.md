@@ -10,4 +10,4 @@ Personal website built in 2017, originally as a final project for Kenyon's ARTS 
 - [ ] Remove inline styling
 - [ ] update site to Bootstrap 4
 - [ ] Minify JS/CSS for faster serving, add build system
-- [ ] Rewrite HTML & CSS from ground up (the biggest kahuna)
+- [ ] Rewrite HTML & CSS (the biggest kahuna)
