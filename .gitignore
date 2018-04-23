@@ -3,5 +3,4 @@ node_modules
 .firebaserc
 firebase.json
 .htaccess
-gra/css
-gra/lib
+gra/
