@@ -34,42 +34,20 @@ h1 {
     background-color: hsla(205, 88%, 34%, 1.00);
 }
 
-#foolsgold:hover {
-    background-color: hsla(359, 73%, 35%, 1.00);
-    color: white;
-}
-
-#kenyon:hover {
-    background-color: hsla(359, 73%, 35%, 1.00);
-}
-
-#framestore:hover {
-    background-color: hsla(359, 73%, 35%, 1.00);
-}
-
-#archipelago:hover {
-    background-color: hsla(359, 73%, 35%, 1.00);
-}
 
 #hony {
     background-color: white;
     color: hsla(359, 73%, 35%, 1.00)
 }
 
-#hony:hover {
-    background-color: hsla(359, 73%, 35%, 1.00);
-    color: white;
-}
+
 
 #bailey {
     background-color: black;
     margin-bottom: 40px;
 }
 
-#bailey:hover {
-    background-color: hsla(359, 73%, 35%, 1.00);
-    color: white;
-}
+
 
 .check {
     background-color: red;
@@ -137,7 +115,7 @@ p {
     position: fixed;
     margin-left: 15px;
     bottom: 0;
-    
+
     margin-bottom: 15px;
     color: hsla(359, 73%, 35%, 1.00);
     font-family: inconsolata;
@@ -351,6 +329,9 @@ h1:hover {}
 }
 
 h2 {
+    text-align: right;
+}
+h3 {
     text-align: right;
 }
 
