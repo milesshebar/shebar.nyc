@@ -4,7 +4,7 @@ Personal website built in 2017, originally as a final project for Kenyon's ARTS 
 ## Todo:
 - [ ] Transcode .webm videos to optimize delivery for compatible browsers
 - [x] Start serving content over HTTPS before Chrome 68 update
-- [ ] Serve Inconsolata with Google Fonts CDN and remove references to unused font Montserrat
+- [x] Serve Inconsolata with Google Fonts CDN and remove references to unused font Montserrat
 
 ## Big Jobs:
 - [ ] Remove inline styling
