@@ -10,6 +10,8 @@ Location: New York, NY and Gambier, OH
 /* SITE */
 
 GitHub: https://github.com/milesshebar/shebar.nyc
-Standards: HTML5, CSS3
+Standards: HTML5, CSS3, HTTPS
 Components: Bootstrap 3, jQuery
-Software: Atom (prev. Brackets & Dreamweaver), Transmit (prev. FileZilla)
+Software: Nginx, Node, Atom (prev. Brackets & Dreamweaver), Transmit (prev. FileZilla)
+
+Originally created in 2017.
