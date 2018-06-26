@@ -563,8 +563,8 @@ h2 {
 #webspan {
   -webkit-transition: background-color .5s ease;
   transition: background-color .5s ease;
-  color: black;
-  background-color: #7EF500;
+  color: white;
+  background-color: rgb(172,221,150);
 }
 
 #actorspan {
@@ -892,4 +892,3 @@ iframe {
   background-color: #98191b;
   border-color: #46b8da;
 }
-
